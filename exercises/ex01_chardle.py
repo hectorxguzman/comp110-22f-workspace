@@ -9,10 +9,8 @@ if len(five) == 5:
     single: str = input("Enter a single-character:")
 
     if len(single) == 1:
-        
         instance = 0
         print("Searching for " + single + " in " + five)
-
         if single == five[0]:
             print(single + " found at index 0")
             instance = instance + 1
@@ -39,4 +37,3 @@ if len(five) == 5:
         print("Error: Character must be a single character.")
 else:
     print("Error: Word must contain 5 characters")
-
